@@ -29,18 +29,6 @@ export default function PrivacyPage() {
           </p>
         </div>
 
-        {/* Operator note */}
-        <div className="mb-12 rounded-lg border border-honey-500/30 bg-honey-500/5 px-5 py-4 text-sm text-ink-600">
-          <p className="font-medium text-ink-700 mb-1">Operator note (fill in before publishing)</p>
-          <p>
-            Klam is currently operated by an individual developer based in Morocco; no company has been incorporated
-            yet. Replace the bracketed placeholders below (<code className="text-ink-700">[Legal Name / Company Name]</code>,{' '}
-            <code className="text-ink-700">[Contact Email]</code>, <code className="text-ink-700">[Governing Law]</code>) once
-            you&apos;ve settled on a business structure. This document reflects what the backend actually does as of the date
-            above — a licensed lawyer should still review it before publishing, particularly the international-transfer and
-            children&apos;s-privacy sections.
-          </p>
-        </div>
 
         <div className="prose-klam space-y-10">
 
@@ -48,9 +36,9 @@ export default function PrivacyPage() {
           <section>
             <h2 className="font-fraunces text-2xl font-semibold text-ink-900 mb-4">1. Who We Are</h2>
             <p className="text-ink-700 leading-relaxed">
-              Klam is operated by <strong>[Legal Name / Company Name]</strong>, based in Morocco. If you have questions
+              Klam is operated by <strong>Mohamed Adnane Al Khiati</strong>, based in Morocco. If you have questions
               about this policy or your data, contact us at{' '}
-              <strong>[Contact Email — e.g. privacy@klam.app]</strong>.
+              <strong>adnanealk@gmail.com</strong>.
             </p>
           </section>
 
@@ -350,7 +338,7 @@ export default function PrivacyPage() {
             <h2 className="font-fraunces text-2xl font-semibold text-ink-900 mb-4">10. Contact Us</h2>
             <p className="text-ink-700 leading-relaxed text-sm">
               If you have questions about this Privacy Policy or how we handle your data, contact us at{' '}
-              <strong>[Contact Email]</strong>.
+              <strong>adnanealk@gmail.com</strong>.
             </p>
           </section>
         </div>

@@ -26,18 +26,10 @@ export default function TermsPage() {
           Effective date: July 7, 2026 &nbsp;·&nbsp; Last updated: July 7, 2026
         </p>
 
-        <div className="mb-10 rounded-lg border border-amber-200 bg-amber-50 px-5 py-4 text-small text-amber-900">
-          <strong>Operator note (fill in before publishing):</strong> Klam is currently operated by an individual developer based in Morocco; no company has been incorporated yet. Replace{' '}
-          <code className="rounded bg-amber-100 px-1">[Mohamed Adnane Al Khiati]</code>,{' '}
-          <code className="rounded bg-amber-100 px-1">[adnanealk@gmail.com]</code>, and{' '}
-          <code className="rounded bg-amber-100 px-1">[Governing Law]</code>{' '}
-          once finalized. This is a working draft reflecting the App's actual functionality as of the date above — have a licensed lawyer review it before publishing, especially the governing-law, liability, and dispute-resolution sections, which are jurisdiction-sensitive.
-        </div>
-
         <div className="space-y-10 text-body text-ink-600 leading-relaxed">
           <p>
             These Terms of Service ("Terms") govern your use of the Klam mobile application (the "App"), operated by{' '}
-            <strong className="text-ink-900">[Mohamed Adnane Al Khiati]</strong> ("Klam," "we," "us," or "our"). By creating an account or using the App, you agree to these Terms. If you don't agree, don't use the App. Our{' '}
+            <strong className="text-ink-900">Mohamed Adnane Al Khiati</strong> ("Klam," "we," "us," or "our"). By creating an account or using the App, you agree to these Terms. If you don't agree, don't use the App. Our{' '}
             <Link href="/privacy" className="text-ink-900 underline underline-offset-2 hover:opacity-70 transition-opacity">
               Privacy Policy
             </Link>{' '}
@@ -162,7 +154,9 @@ export default function TermsPage() {
           <Section title="14. Contact Us">
             <p>
               Questions about these Terms? Contact us at{' '}
-              <strong className="text-ink-900">[Contact Email]</strong>.
+              <a href="mailto:adnanealk@gmail.com" className="text-ink-900 underline underline-offset-2 hover:opacity-70 transition-opacity">
+                adnanealk@gmail.com
+              </a>.
             </p>
           </Section>
         </div>
