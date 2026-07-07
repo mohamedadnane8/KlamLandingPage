@@ -1,8 +1,8 @@
 import { Section } from '@/components/ui/Section'
 
 const links = [
-  { label: 'Privacy', href: '#privacy' },
-  { label: 'Terms', href: '#terms' },
+  { label: 'Privacy', href: '/privacy' },
+  { label: 'Terms', href: '/terms' },
   { label: 'Contact', href: '#contact' },
 ]
 
