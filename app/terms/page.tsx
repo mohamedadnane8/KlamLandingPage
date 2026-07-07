@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function TermsPage() {
   return (
     <div className="min-h-screen bg-cream-50 text-ink-900">
-      <header className="border-b border-cream-200 bg-cream-50 px-6 py-5">
+      <header className="border-b border-cream-200 bg-cream-50 px-4 sm:px-6 py-4">
         <div className="mx-auto flex max-w-3xl items-center justify-between">
           <Link href="/" className="font-display text-title text-ink-900 hover:opacity-80 transition-opacity">
             Klam
@@ -18,8 +18,8 @@ export default function TermsPage() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-3xl px-6 py-16">
-        <h1 className="font-display text-[2rem] leading-tight text-ink-900 mb-2">
+      <main className="mx-auto max-w-3xl px-4 sm:px-6 py-10 sm:py-16">
+        <h1 className="font-display text-2xl sm:text-[2rem] leading-tight text-ink-900 mb-2">
           Terms of Service
         </h1>
         <p className="text-small text-ink-500 mb-8">
@@ -179,7 +179,7 @@ export default function TermsPage() {
           </Section>
         </div>
 
-        <div className="mt-16 border-t border-cream-200 pt-8 text-small text-ink-500">
+        <div className="mt-12 border-t border-cream-200 pt-8 text-small text-ink-500">
           <Link href="/" className="hover:text-ink-900 transition-colors">
             ← Back to Klam
           </Link>
