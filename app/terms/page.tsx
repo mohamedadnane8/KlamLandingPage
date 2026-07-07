@@ -112,19 +112,37 @@ export default function TermsPage() {
             </p>
           </Section>
 
-          <Section title="8. No Payment at This Time">
+          <Section title="8. Limited License">
+            <p className="mb-4">
+              Subject to these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to use the App for your personal, non-commercial use. We may modify, suspend, or discontinue features at any time.
+            </p>
+            <p className="mb-4">
+              We are not responsible for delays or failures caused by events outside our reasonable control, including internet outages, cloud-provider failures, natural disasters, governmental actions, or cyberattacks.
+            </p>
+            <p className="mb-4">
+              These Terms, together with the Privacy Policy, constitute the entire agreement between you and Klam regarding the App.
+            </p>
+            <p className="mb-4">
+              If any provision of these Terms is found unenforceable, the remaining provisions remain in effect.
+            </p>
+            <p>
+              Our failure to enforce any provision of these Terms does not constitute a waiver of that provision.
+            </p>
+          </Section>
+
+          <Section title="9. No Payment at This Time">
             <p>
               Klam does not currently charge for access or offer in-app purchases. If that changes in the future, we'll update these Terms to include applicable billing, subscription, and refund terms before introducing any paid features.
             </p>
           </Section>
 
-          <Section title="9. Disclaimers">
+          <Section title="10. Disclaimers">
             <p className="uppercase text-small tracking-wide text-ink-700">
               The App is provided "as is" and "as available," without warranties of any kind, either express or implied, including warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not guarantee that the App will be uninterrupted, error-free, or that AI-generated feedback will be accurate.
             </p>
           </Section>
 
-          <Section title="10. Limitation of Liability">
+          <Section title="11. Limitation of Liability">
             <p className="uppercase text-small tracking-wide text-ink-700 mb-4">
               To the maximum extent permitted by law, Klam and its operator shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of data, arising from your use of the App. Our total liability for any claim arising from these Terms or the App shall not exceed the amount you paid us in the 12 months preceding the claim (which, as the App is currently free, may be zero).
             </p>
@@ -133,25 +151,25 @@ export default function TermsPage() {
             </p>
           </Section>
 
-          <Section title="11. Termination">
+          <Section title="12. Termination">
             <p>
               You may stop using the App and delete your account at any time. We may suspend or terminate your access if you violate these Terms, or discontinue the App at our discretion, with reasonable notice where practical.
             </p>
           </Section>
 
-          <Section title="12. Changes to These Terms">
+          <Section title="13. Changes to These Terms">
             <p>
               We may update these Terms from time to time. If we make material changes, we'll notify you through the App before they take effect. Continued use of the App after changes take effect means you accept the updated Terms.
             </p>
           </Section>
 
-          <Section title="13. Governing Law">
+          <Section title="14. Governing Law">
             <p>
               These Terms are governed by the laws of <strong className="text-ink-900">Morocco</strong>, without regard to conflict-of-law principles. Any disputes will be resolved in the courts of that jurisdiction, unless otherwise required by applicable local consumer-protection law.
             </p>
           </Section>
 
-          <Section title="14. Contact Us">
+          <Section title="15. Contact Us">
             <p>
               Questions about these Terms? Contact us at{' '}
               <a href="mailto:adnanealk@gmail.com" className="text-ink-900 underline underline-offset-2 hover:opacity-70 transition-opacity">
