@@ -36,9 +36,10 @@ export default function PrivacyPage() {
           <section>
             <h2 className="font-fraunces text-2xl font-semibold text-ink-900 mb-4">1. Who We Are</h2>
             <p className="text-ink-700 leading-relaxed">
-              Klam is operated by <strong>Mohamed Adnane Al Khiati</strong>, based in Morocco. If you have questions
-              about this policy or your data, contact us at{' '}
-              <strong>adnanealk@gmail.com</strong>.
+              Klam is operated by <strong>Mohamed Adnane Al Khiati</strong>, based in Morocco.{' '}
+              <strong>Mohamed Adnane Al Khiati is the data controller</strong> responsible for processing the personal
+              information described in this policy. If you have questions about this policy or your data, contact us at{' '}
+              <a href="mailto:adnanealk@gmail.com" className="underline hover:opacity-70 transition-opacity">adnanealk@gmail.com</a>.
             </p>
           </section>
 
@@ -117,6 +118,9 @@ export default function PrivacyPage() {
                     your own self-assessment ratings and notes, all attached to that practice attempt.
                   </li>
                 </ul>
+                <p className="text-ink-700 leading-relaxed text-sm mt-3">
+                  <strong>We do not use your recordings or transcripts to train our own AI models.</strong>
+                </p>
               </div>
 
               <div>
@@ -166,6 +170,17 @@ export default function PrivacyPage() {
               We do not use your recordings, transcripts, or feedback for advertising, and we do not sell personal
               information to third parties.
             </p>
+
+            <div className="mt-6 rounded-md border border-cream-200 bg-cream-50 px-5 py-4">
+              <h3 className="text-base font-semibold text-ink-800 mb-2">Legal basis for processing (GDPR)</h3>
+              <p className="text-ink-700 text-sm mb-2">We process your information because:</p>
+              <ul className="list-disc list-inside space-y-1 text-ink-700 text-sm">
+                <li><strong>Contract performance</strong> — processing is necessary to provide the service you have requested (creating your account, generating feedback, tracking progress);</li>
+                <li><strong>Consent</strong> — for certain processing you opt into, such as push notifications;</li>
+                <li><strong>Legitimate interests</strong> — securing the service, detecting abuse, and improving the App's exercises and feedback quality, in ways that do not override your rights;</li>
+                <li><strong>Legal obligation</strong> — where we are required to retain or disclose data by applicable law.</li>
+              </ul>
+            </div>
           </section>
 
           {/* 4 */}
@@ -234,6 +249,12 @@ export default function PrivacyPage() {
             </div>
 
             <p className="text-ink-700 leading-relaxed text-sm mt-4">
+              <strong>AI providers and advertising.</strong> The speech-to-text providers (AssemblyAI, Deepgram) and AI
+              feedback provider (DeepSeek) process your data solely to generate the transcript and feedback you see in
+              the App. They are not authorized to use your recordings, transcripts, or any derived data to advertise to
+              you or for their own commercial purposes beyond delivering the service to us.
+            </p>
+            <p className="text-ink-700 leading-relaxed text-sm mt-4">
               <strong>International transfers.</strong> Some of these providers process data outside your home country,
               including in the United States and, in the case of DeepSeek (our AI feedback provider), a company
               operating under Chinese jurisdiction. Where we transfer personal data internationally, we rely on the
@@ -258,8 +279,8 @@ export default function PrivacyPage() {
               <li>
                 When you delete your account (see Section 7), we delete your audio recordings from storage and
                 permanently delete your account record, sessions, practice history, gamification data, and vocabulary
-                list. This happens immediately on request; in rare cases some cached data (see below) may persist
-                briefly afterward.
+                list. We begin deletion immediately on request and complete it as soon as reasonably practicable, except
+                where temporary backups or logs must be retained for security or legal reasons (see below).
               </li>
               <li>
                 A small amount of temporary technical data may outlive account deletion by a short window: cached API
@@ -330,6 +351,15 @@ export default function PrivacyPage() {
               We may update this Privacy Policy from time to time. If we make material changes, we&apos;ll notify you
               through the App or by other reasonable means before the change takes effect. The &quot;Last updated&quot;
               date at the top reflects the most recent revision.
+            </p>
+          </section>
+
+          {/* 9a */}
+          <section>
+            <h2 className="font-fraunces text-2xl font-semibold text-ink-900 mb-4">Governing Law</h2>
+            <p className="text-ink-700 leading-relaxed text-sm">
+              This Privacy Policy is governed by the laws applicable in Morocco, except where mandatory consumer or data
+              protection laws in your jurisdiction provide otherwise.
             </p>
           </section>
 
