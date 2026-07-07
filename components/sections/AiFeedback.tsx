@@ -14,7 +14,7 @@ const subScores: SubScore[] = [
 export function AiFeedback() {
   return (
     <Section id="ai-feedback" className="bg-cream-100">
-      <div className="grid items-center gap-16 lg:grid-cols-[0.95fr_1.05fr] lg:gap-24">
+      <div className="grid items-center gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:gap-24">
         {/* Copy */}
         <SectionHeading
           eyebrow="AI coach"
@@ -26,8 +26,8 @@ export function AiFeedback() {
         </SectionHeading>
 
         {/* Score-reveal card */}
-        <div className="rounded-2xl bg-cream-50 p-8 shadow-lg md:p-10">
-          <div className="flex items-end justify-between">
+        <div className="rounded-2xl bg-cream-50 p-5 shadow-lg sm:p-8 md:p-10">
+          <div className="flex flex-wrap items-end gap-3 sm:justify-between">
             <div>
               <p className="text-caption font-medium uppercase tracking-[0.16em] text-ink-500">
                 Overall score
@@ -35,7 +35,7 @@ export function AiFeedback() {
               <div className="mt-1 flex items-baseline gap-1">
                 <CountUp
                   to={84}
-                  className="font-display text-[88px] leading-none text-ink-900"
+                  className="font-display text-[52px] leading-none text-ink-900 sm:text-[72px] lg:text-[88px]"
                 />
                 <span className="text-title text-ink-500">/100</span>
               </div>
@@ -46,7 +46,7 @@ export function AiFeedback() {
           </div>
 
           {/* Sub-scores */}
-          <div className="mt-8 grid grid-cols-2 gap-x-8 gap-y-5">
+          <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-5 sm:gap-x-8">
             {subScores.map((s) => (
               <div key={s.label}>
                 <div className="flex items-baseline justify-between">

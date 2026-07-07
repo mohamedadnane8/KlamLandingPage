@@ -18,7 +18,7 @@ export function Gamification() {
         {/* Streak */}
         <Tile label="Current streak">
           <div className="flex items-baseline gap-2">
-            <span className="font-display text-display text-ink-900">84</span>
+            <span className="font-display text-[2rem] sm:text-display text-ink-900">84</span>
             <span className="text-body text-ink-500">days</span>
           </div>
           <p className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-terracotta-500/15 px-3 py-1 text-caption font-medium text-ink-800">
@@ -29,7 +29,7 @@ export function Gamification() {
         {/* XP / level */}
         <Tile label="Level 18 · Communication Expert">
           <div className="flex items-baseline gap-2">
-            <span className="font-display text-display text-ink-900">8,240</span>
+            <span className="font-display text-[2rem] sm:text-display text-ink-900">8,240</span>
             <span className="text-body text-ink-500">XP</span>
           </div>
           <div className="mt-4">
@@ -43,7 +43,7 @@ export function Gamification() {
         {/* Exercises */}
         <Tile label="Exercises completed">
           <div className="flex items-baseline gap-2">
-            <span className="font-display text-display text-ink-900">512</span>
+            <span className="font-display text-[2rem] sm:text-display text-ink-900">512</span>
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
             <Badge>Early bird</Badge>
@@ -55,7 +55,7 @@ export function Gamification() {
         {/* Vocabulary */}
         <Tile label="Vocabulary collected">
           <div className="flex items-baseline gap-2">
-            <span className="font-display text-display text-ink-900">431</span>
+            <span className="font-display text-[2rem] sm:text-display text-ink-900">431</span>
             <span className="text-caption font-medium text-sage-700">+31 this week</span>
           </div>
           <div className="mt-4 flex flex-wrap gap-2">

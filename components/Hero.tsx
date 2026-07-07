@@ -4,10 +4,10 @@ import { WaitingListForm } from '@/components/ui/WaitingListForm'
 export function Hero() {
   return (
     <Section className="bg-cream-100" containerClassName="md:py-28">
-      <div className="grid items-center gap-16 lg:grid-cols-[1.1fr_0.9fr]">
+      <div className="grid items-center gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
         {/* Copy column */}
         <div className="max-w-xl">
-          <h1 className="mt-6 font-display text-display font-medium text-ink-800">
+          <h1 className="mt-4 font-display text-[2.5rem] leading-[1.15] sm:text-[3.25rem] lg:text-display font-medium text-ink-800">
             Your daily workout for better communication.
           </h1>
 

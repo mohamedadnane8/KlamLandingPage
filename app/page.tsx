@@ -76,7 +76,7 @@ function EmotionalHook() {
     <Section className="bg-cream-50">
       <div className="mx-auto max-w-2xl">
         <p className="text-subtitle text-ink-700">You know the feeling.</p>
-        <div className="mt-6 space-y-3 border-l-2 border-cream-200 pl-6 text-body text-ink-600">
+        <div className="mt-6 space-y-3 border-l-2 border-cream-200 pl-4 sm:pl-6 text-body text-ink-600">
           <p>Blanking on an interview question you'd answered a hundred times in your head.</p>
           <p>Leaving a meeting wishing you'd said something — anything.</p>
           <p>Rambling through a presentation and watching the room drift.</p>
@@ -134,7 +134,7 @@ function Faq() {
 
 function Card({ title, body }: { title: string; body: string }) {
   return (
-    <div className="rounded-2xl bg-cream-50 p-8 shadow-card">
+    <div className="rounded-2xl bg-cream-50 p-5 shadow-card sm:p-8">
       <h3 className="text-title font-semibold text-ink-900">{title}</h3>
       <p className="mt-3 text-body text-ink-600">{body}</p>
     </div>
