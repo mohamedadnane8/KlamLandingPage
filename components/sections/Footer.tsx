@@ -12,7 +12,7 @@ export function Footer() {
       <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
         <div className="flex items-center gap-3 text-center sm:text-left">
           <span className="font-display text-title text-ink-900">Klam</span>
-          <span className="text-small text-ink-500">Practice speaking, calmly.</span>
+          <span className="text-small text-ink-500">Train communication like a skill.</span>
         </div>
 
         <nav className="flex items-center gap-4 text-small text-ink-600">

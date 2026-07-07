@@ -17,12 +17,12 @@ export function AiFeedback() {
       <div className="grid items-center gap-16 lg:grid-cols-[0.95fr_1.05fr] lg:gap-24">
         {/* Copy */}
         <SectionHeading
-          eyebrow="AI feedback"
-          title="Scored on what you actually said."
+          eyebrow="AI coach"
+          title="Feedback that actually helps."
         >
-          No vague “great job.” Klam reads back your own words, scores them 0 to
-          100 on pace, clarity, fillers and structure, and points to the moment
-          each number came from. Praise you can’t check isn’t worth much.
+          After every exercise, KLAM gives you feedback that sounds like a great
+          coach — specific, honest, and useful. Not "good job." Not vague
+          suggestions. The kind that makes the next rep better than the last.
         </SectionHeading>
 
         {/* Score-reveal card */}
@@ -69,15 +69,16 @@ export function AiFeedback() {
               What we heard
             </p>
             <p className="mt-2 text-body leading-relaxed text-ink-700">
-              “…and I think{' '}
+              "…and I think{' '}
               <mark className="rounded bg-honey-500 px-1 text-ink-900">um</mark>{' '}
               the main reason this{' '}
               <mark className="rounded bg-honey-500 px-1 text-ink-900">um</mark>{' '}
-              really matters is trust.”
+              really matters is trust."
             </p>
             <p className="mt-3 text-small text-ink-600">
-              Two fillers before your main point. That’s 4% of your words, down
-              from 8% last week. You paused well, then said “the thing is” twice.
+              You said um twice before making your main point — 4% of your words,
+              down from 8% last week. Strong pause before your close. Watch "the
+              thing is" — you leaned on it twice.
             </p>
           </div>
         </div>

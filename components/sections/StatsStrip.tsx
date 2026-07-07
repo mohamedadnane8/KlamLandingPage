@@ -2,27 +2,21 @@ import { Section } from '@/components/ui/Section'
 
 type Stat = { value: string; label: string }
 
-// Concrete, specific numbers — no vague "thousands of happy users".
 const stats: Stat[] = [
-  { value: '2.4M', label: 'Sessions completed' },
-  { value: '11 days', label: 'Average practice streak' },
-  { value: '3.1M', label: 'Minutes practiced' },
-  { value: '4.6★', label: 'App Store rating' },
+  { value: '3 min', label: 'Per daily session' },
+  { value: '6+', label: 'Exercise types' },
+  { value: '0–100', label: 'AI score per session' },
+  { value: 'Free', label: 'To start' },
 ]
 
 export function StatsStrip() {
   return (
-    <Section className="bg-cream-100" spacing="compact">
-      <dl className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
+    <Section className="border-y border-cream-200 bg-cream-100" spacing="compact">
+      <dl className="grid grid-cols-2 gap-8 sm:grid-cols-4">
         {stats.map((s) => (
-          <div
-            key={s.label}
-            className="rounded-lg bg-cream-50 p-6 text-center shadow-card"
-          >
-            <dt className="font-sans text-headline font-semibold text-ink-800">
-              {s.value}
-            </dt>
-            <dd className="mt-2 text-small text-ink-500">{s.label}</dd>
+          <div key={s.label} className="text-center sm:text-left">
+            <dt className="font-display text-headline text-ink-900">{s.value}</dt>
+            <dd className="mt-1 text-caption uppercase tracking-[0.14em] text-ink-500">{s.label}</dd>
           </div>
         ))}
       </dl>

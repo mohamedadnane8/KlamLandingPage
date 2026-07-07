@@ -7,16 +7,14 @@ export function Hero() {
       <div className="grid items-center gap-16 lg:grid-cols-[1.1fr_0.9fr]">
         {/* Copy column */}
         <div className="max-w-xl">
-   
-
           <h1 className="mt-6 font-display text-display font-medium text-ink-800">
-            A mindful practice for the speaking voice.
+            Your daily workout for better communication.
           </h1>
 
           <p className="mt-6 text-subtitle text-ink-600">
-            Sixty-second prompts, no script. Honest notes on your pace, your
-            filler words, your clarity. Three minutes a day, and you keep what you
-            build.
+            Three minutes a day. Real exercises. Real feedback. The skill that
+            shapes every opportunity in your life — finally something you can
+            actually train.
           </p>
 
           <WaitingListForm className="mt-10" />
@@ -29,10 +27,6 @@ export function Hero() {
               See how it works
             </a>
           </div>
-
-          <p className="mt-4 text-small text-ink-500">
-            No audience. No pressure. Just you and the next minute.
-          </p>
         </div>
 
         {/* App mockup column */}
